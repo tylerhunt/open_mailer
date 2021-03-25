@@ -1,6 +1,6 @@
 /.bundle/
+/Gemfile.lock
 /doc/
 /log/*.log
 /pkg/
 /tmp/
-.byebug_history

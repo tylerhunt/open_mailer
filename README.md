@@ -1,28 +1,40 @@
 # OpenMailer
-Short description and motivation.
+
+An Action Mailer delivery method that opens emails locally.
 
 ## Usage
-How to use my plugin.
+
+When delivering emails, they will be opened using your system’s default email
+client (e.g. Mail.app under macOS) without ever actually being sent.
 
 ## Installation
-Add this line to your application's Gemfile:
+
+Add this line to your application's `Gemfile`:
 
 ```ruby
-gem 'open_mailer'
+gem 'open_mailer', group: :development
 ```
 
 And then execute:
+
 ```bash
-$ bundle
+bundle
 ```
 
 Or install it yourself as:
+
 ```bash
-$ gem install open_mailer
+gem install open_mailer
 ```
 
-## Contributing
-Contribution directions go here.
+Then add the following line to the `config/environments/development.rb` file in
+a Rails app:
+
+```
+config.action_mailer.delivery_method = :letter_opener
+```
 
 ## License
-The gem is available as open source under the terms of the [MIT License](https://opensource.org/licenses/MIT).
+
+The gem is available as open source under the terms of the
+[MIT License](https://opensource.org/licenses/MIT).
