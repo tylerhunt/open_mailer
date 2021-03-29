@@ -1,4 +1,4 @@
-# OpenMailer
+# Open Mailer
 
 An Action Mailer delivery method that opens emails locally.
 
@@ -12,19 +12,7 @@ client (e.g. Mail.app under macOS) without ever actually being sent.
 Add this line to your application's `Gemfile`:
 
 ```ruby
-gem 'open_mailer', group: :development
-```
-
-And then execute:
-
-```bash
-bundle
-```
-
-Or install it yourself as:
-
-```bash
-gem install open_mailer
+bundle add open_mailer --group development
 ```
 
 Then add the following line to the `config/environments/development.rb` file in
