@@ -31,7 +31,7 @@ Then add the following line to the `config/environments/development.rb` file in
 a Rails app:
 
 ```
-config.action_mailer.delivery_method = :letter_opener
+config.action_mailer.delivery_method = :open_mailer
 ```
 
 ## License
