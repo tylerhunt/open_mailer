@@ -4,7 +4,7 @@ require 'rails/railtie'
 require_relative 'delivery_method'
 
 module OpenMailer
-  class Railtie < ::Rails::Railtie
+  class Railtie < ::Rails::Railtie #:nodoc:
     initializer 'open_mailer.delivery_method' do
       ActionMailer::Base.add_delivery_method :open_mailer, DeliveryMethod
     end
