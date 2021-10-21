@@ -5,7 +5,7 @@ module OpenMailer
   class DeliveryMethod
     attr_accessor :settings
 
-    def initialize(**settings)
+    def initialize(settings)
       self.settings = settings
     end
 
