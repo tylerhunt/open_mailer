@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.2 (2021-10-21)
 
   * Fix deliver method initialization under Ruby 3 ([Tyler Hunt][tylerhunt])
 
