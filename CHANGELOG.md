@@ -1,6 +1,6 @@
 # Changelog
 
-## Unreleased
+## 0.1.3 (2024-08-04)
 
   * Support Launchy ~> 3.0 ([Tyler Hunt][tylerhunt])
 
