@@ -1,5 +1,9 @@
 # Changelog
 
+## Unreleased
+
+  * Support Launchy ~> 3.0 ([Tyler Hunt][tylerhunt])
+
 ## 0.1.2 (2021-10-21)
 
   * Fix deliver method initialization under Ruby 3 ([Tyler Hunt][tylerhunt])
