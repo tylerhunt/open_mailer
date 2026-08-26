@@ -4,3 +4,7 @@
 /log/*.log
 /pkg/
 /tmp/
+
+# gems installed via Appraisal
+/gemfiles/.bundle
+!/gemfiles/.bundle/config
