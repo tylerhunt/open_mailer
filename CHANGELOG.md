@@ -2,6 +2,7 @@
 
 ## Unreleased
 
+  * Drop requirement on Rails ([Tyler Hunt][tylerhunt])
   * Support mail gem ~> 2.8 and drop support for older versions
     ([Tyler Hunt][tylerhunt])
 
