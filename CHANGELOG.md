@@ -1,5 +1,10 @@
 # Changelog
 
+## Unreleased
+
+  * Support mail gem ~> 2.8 and drop support for older versions
+    ([Tyler Hunt][tylerhunt])
+
 ## 0.1.3 (2024-08-04)
 
   * Support Launchy ~> 3.0 ([Tyler Hunt][tylerhunt])

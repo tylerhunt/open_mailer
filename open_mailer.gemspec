@@ -24,6 +24,6 @@ Gem::Specification.new do |spec|
   ]
 
   spec.add_dependency 'launchy', '>= 2.5', '< 4.0'
-  spec.add_dependency 'mail', '~> 2.5'
+  spec.add_dependency 'mail', '~> 2.8'
   spec.add_dependency 'rails', '> 5'
 end

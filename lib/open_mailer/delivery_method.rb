@@ -1,5 +1,5 @@
 require 'launchy'
-require 'mail/check_delivery_params'
+require 'mail/smtp_envelope'
 
 module OpenMailer
   class DeliveryMethod
@@ -10,8 +10,8 @@ module OpenMailer
     end
 
     def deliver!(mail)
-      Mail::CheckDeliveryParams.check mail
-      file = Tempfile.open(['', '.eml']) { |file| file << mail }
+      envelope = Mail::SmtpEnvelope.new(mail)
+      file = Tempfile.open(['', '.eml']) { |file| file << envelope.message }
       Launchy.open file.path
     end
   end
