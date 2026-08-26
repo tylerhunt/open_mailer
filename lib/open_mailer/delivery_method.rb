@@ -1,5 +1,6 @@
 require 'launchy'
 require 'mail/smtp_envelope'
+require 'tempfile'
 
 module OpenMailer
   class DeliveryMethod
