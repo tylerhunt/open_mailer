@@ -1,6 +1,7 @@
 require 'rails'
 require 'action_mailer/railtie'
 require 'active_support/test_case'
+require 'active_support/testing/autorun'
 
 require 'open_mailer'
 
