@@ -1,10 +1,9 @@
 # Changelog
 
-## Unreleased
+## 0.2.0 (2026-08-26)
 
-  * Drop requirement on Rails ([Tyler Hunt][tylerhunt])
-  * Support mail gem ~> 2.8 and drop support for older versions
-    ([Tyler Hunt][tylerhunt])
+  * Drop Rails dependency in favor of Action Mailer ([Tyler Hunt][tylerhunt])
+  * Support and require Mail ~> 2.8 ([Tyler Hunt][tylerhunt])
 
 ## 0.1.3 (2024-08-04)
 
